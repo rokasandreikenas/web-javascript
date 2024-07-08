@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('actionButton').addEventListener('click', function() {
-        var text = document.getElementById('text');
-        var parentDiv = document.getElementById('parentDiv');
-        var box = document.getElementById('box');
-        var status = document.getElementById('status');
+        const text = document.getElementById('text');
+        const parentDiv = document.getElementById('parentDiv');
+        const box = document.getElementById('box');
+        const status = document.getElementById('status');
 
         // Change the text of the first <p> element
         text.innerText = "This text has been changed!"
