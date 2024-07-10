@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paprasta Animacija</title>
+    <style>
+      @keyframes example {
+        0% {
+          background-color: #ff6a3e;
+        }
+        50% {
+          background-color: #ffba43;
+        }
+        100% {
+          background-color: #1e90ff;
+        }
+      }
+
+      .animate {
+        width: 100px;
+        height: 100px;
+        background-color: #ff6a3e;
+        animation: example 4s infinite alternate;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animate"></div>
+  </body>
+</html>
