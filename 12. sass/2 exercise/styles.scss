@@ -1,0 +1,17 @@
+$primary-color: #ff6a3e;
+$secondary-color: #ffba43;
+
+@mixin box-shadow($x, $y, $blur, $color) {
+  -webkit-box-shadow: $x $y $blur $color;
+  -moz-box-shadow: $x $y $blur $color;
+  box-shadow: $x $y $blur $color;
+}
+
+.button {
+  @include box-shadow(2px, 2px, 5px, rgba(0, 0, 0, 0.3));
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}

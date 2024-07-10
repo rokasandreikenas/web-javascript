@@ -1,0 +1,24 @@
+$primary-color: #ff6a3e;
+$secondary-color: #ffba43;
+
+.nav {
+  background-color: $primary-color;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
